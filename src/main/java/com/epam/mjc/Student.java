@@ -3,7 +3,8 @@ package com.epam.mjc;
 
 import java.util.Arrays;
 
-public enum Student {
+public enum
+Student {
 
   MAX(1, "Max", 15),
   KOLYA(2, "Kolya", 18),
@@ -44,4 +45,6 @@ public enum Student {
   public int getAge() {
     return age;
   }
+
+
 }
